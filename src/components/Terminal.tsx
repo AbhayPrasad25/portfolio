@@ -67,74 +67,72 @@ interface Experience {
 const COMMANDS = {
   about: {
     type: "text",
-    content: `👋 Hey there! I'm Abhay, a passionate full-stack developer with 5+ years of experience
-🚀 I love building innovative web applications and exploring cutting-edge technologies
-🎯 Currently focused on React, Next.js, and modern web development
-💡 Always excited to take on new challenges and create amazing user experiences
-🌟 Fun fact: I built this entire terminal in a browser!`,
+    content: `👋 Hey there! I'm Abhay Prasad, a passionate Computer Science student specializing in AI/ML
+🎓 Currently pursuing Integrated Masters (BTech + MTech) at VIT Bhopal University
+🚀 Experienced in building AI-driven projects and audio classification systems
+🤖 Artificial Intelligence Intern at Aavaaz Inc with hands-on experience in multilingual chatbots
+💡 Love working with Python, PyTorch, and modern web technologies
+🌟 Fun fact: I built this entire terminal portfolio in a browser!`,
     icon: <User className="w-4 h-4" />,
   },
   whoami: {
     type: "text",
-    content: `root@abhay-portfolio:~$ Abhay
-Location: India
-Occupation: Full-Stack Developer
-Years of Experience: 5+
-Current Status: Available for new opportunities`,
+    content: `root@abhay-portfolio:~$ Abhay Prasad
+Location: Varanasi, India
+Phone: +91 9517540824
+Email: abhayprasad.pro@gmail.com
+Occupation: AI/ML Engineering Student
+Current Status: Open to internships and opportunities`,
     icon: <User className="w-4 h-4" />,
   },
   experience: {
     type: "timeline",
     content: [
       {
-        year: "2024-Present",
-        role: "Senior Full-Stack Developer",
-        company: "Tech Innovations Inc.",
-        description: "Leading development of scalable web applications",
+        year: "Dec 2024 - Jan 2025",
+        role: "Artificial Intelligence Intern",
+        company: "Aavaaz Inc",
+        description: "Collaborated on 3 AI-driven projects, optimized data preparation for 3,000+ text corpora, and contributed to multilingual chatbot supporting 5+ languages",
       },
       {
-        year: "2022-2024",
-        role: "Full-Stack Developer",
-        company: "StartupXYZ",
-        description: "Built MVP and scaled to 100k+ users",
-      },
-      {
-        year: "2020-2022",
-        role: "Frontend Developer",
-        company: "Digital Agency",
-        description: "Created responsive websites for Fortune 500 companies",
+        year: "2021 - 2026",
+        role: "Student - Integrated Masters",
+        company: "VIT Bhopal University",
+        description: "Computer Science with AI/ML Specialization. CGPA: 8.78. Active in Data Science Club leadership and hackathons",
       },
     ],
     icon: <Code className="w-4 h-4" />,
   },
   education: {
     type: "text",
-    content: `🎓 Bachelor of Science in Computer Science
-🏫 University of Technology (2016-2020)
-📚 Relevant Coursework: Data Structures, Algorithms, Web Development
-🏆 Graduated Magna Cum Laude (GPA: 3.8/4.0)`,
+    content: `🎓 Integrated Masters (BTech + MTech) in Computer Science and Engineering
+   Specialization: Artificial Intelligence and Machine Learning
+🏫 VIT Bhopal University, Bhopal, M.P. (2021 - 2026)
+� Cumulative GPA: 8.78/10.0
+🏆 XIIth: 89.6% - Sunbeam School, Mughalsarai, U.P. (2019-2020)
+📚 Xth: 82.4% - Sunbeam School, Mughalsarai, U.P. (2017-2018)`,
     icon: <Code className="w-4 h-4" />,
   },
   projects: {
     type: "list",
     content: [
       {
-        name: "🎮 Interactive Terminal Portfolio",
+        name: "� AcousticNet - Audio Classification System",
+        tech: "Python • PyTorch • NumPy • Modal • FastAPI",
+        status: "85% Accuracy",
+        link: "github.com/abhayraj18",
+      },
+      {
+        name: "📰 TruthSense - Fake News Detection",
+        tech: "Python • PyTorch • BERT • Streamlit",
+        status: "89% Accuracy",
+        link: "github.com/abhayraj18",
+      },
+      {
+        name: "� Interactive Terminal Portfolio",
         tech: "Next.js • TypeScript • Framer Motion",
         status: "Live",
-        link: "#",
-      },
-      {
-        name: "🌟 AI-Powered Dashboard",
-        tech: "React • Python • TensorFlow",
-        status: "In Progress",
-        link: "#",
-      },
-      {
-        name: "🚀 Realtime Chat Application",
-        tech: "Node.js • Socket.io • MongoDB",
-        status: "Completed",
-        link: "#",
+        link: "current-site",
       },
     ],
     icon: <Code className="w-4 h-4" />,
@@ -142,21 +140,21 @@ Current Status: Available for new opportunities`,
   skills: {
     type: "progress",
     content: [
-      { name: "JavaScript/TypeScript", level: 95 },
-      { name: "React/Next.js", level: 90 },
-      { name: "Node.js", level: 85 },
-      { name: "Python", level: 80 },
-      { name: "Cloud/DevOps", level: 75 },
+      { name: "Python", level: 90 },
+      { name: "PyTorch/Machine Learning", level: 85 },
+      { name: "JavaScript/HTML/CSS", level: 80 },
+      { name: "Java", level: 75 },
+      { name: "FastAPI/Docker", level: 70 },
     ],
     icon: <Wrench className="w-4 h-4" />,
   },
   contact: {
     type: "contact",
     content: {
-      email: "abhay@example.com",
-      linkedin: "linkedin.com/in/abhay-profile",
-      github: "github.com/abhay",
-      website: "abhay-portfolio.com",
+      email: "abhayprasad.pro@gmail.com",
+      linkedin: "linkedin.com/in/abhay-prasad",
+      github: "github.com/abhayraj18",
+      website: "abhay-terminal-portfolio.vercel.app",
     },
     icon: <Mail className="w-4 h-4" />,
   },
@@ -170,21 +168,27 @@ Current Status: Available for new opportunities`,
     type: "list",
     content: [
       {
-        name: "🏆 AWS Certified Solutions Architect",
-        tech: "Cloud Computing Certification",
+        name: "🏆 IIT Kharagpur Data Science Hackathon",
+        tech: "Qualified for Round 2 from 2,000+ teams",
+        status: "Round 2 Qualifier",
+        link: "#",
+      },
+      {
+        name: "🎓 GitHub Foundations Certification",
+        tech: "GitHub Official Certification",
         status: "Certified",
-        link: "#",
+        link: "github.com",
       },
       {
-        name: "🥇 Hackathon Winner 2023",
-        tech: "Built AI-powered productivity app",
-        status: "Won 1st Place",
-        link: "#",
+        name: "📚 Machine Learning Specialization",
+        tech: "Coursera - Andrew Ng Course",
+        status: "Completed",
+        link: "coursera.org",
       },
       {
-        name: "📚 Tech Blog Author",
-        tech: "50+ articles, 10K+ monthly readers",
-        status: "Active",
+        name: "� Data Science Club Leadership",
+        tech: "Organized workshops and coding events",
+        status: "Active Leader",
         link: "#",
       },
     ],
@@ -203,7 +207,7 @@ Current Status: Available for new opportunities`,
   },
   weather: {
     type: "weather",
-    content: "Mumbai, India: 28°C ☀️ Sunny\nPerfect coding weather!",
+    content: "Varanasi, India: 26°C ☀️ Pleasant\nPerfect weather for coding and learning!",
     icon: <Sparkles className="w-4 h-4" />,
   },
   joke: {
@@ -220,12 +224,13 @@ Because light attracts bugs! 🐛💡`,
   },
   fun: {
     type: "text",
-    content: `🎮 When I'm not coding, you can find me:
-🎸 Playing guitar and writing music
-📸 Photography and exploring nature  
-🎯 Playing chess (rating: 1800+)
-🍕 Trying new pizza places
-🎬 Binge-watching sci-fi series`,
+    content: `� When I'm not coding, you can find me:
+� Listening to music (all genres, but especially lo-fi)
+📚 Reading comic books and graphic novels
+🤖 Exploring latest AI/ML research papers
+� Following cricket matches and stats
+� Playing strategy games and puzzles
+☕ Enjoying a good cup of chai while debugging`,
     icon: <User className="w-4 h-4" />,
   },
   sound: {
