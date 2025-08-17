@@ -92,13 +92,15 @@ Current Status: Open to internships and opportunities`,
         year: "Dec 2024 - Jan 2025",
         role: "Artificial Intelligence Intern",
         company: "Aavaaz Inc",
-        description: "Collaborated on 3 AI-driven projects, optimized data preparation for 3,000+ text corpora, and contributed to multilingual chatbot supporting 5+ languages",
+        description:
+          "Collaborated on 3 AI-driven projects, optimized data preparation for 3,000+ text corpora, and contributed to multilingual chatbot supporting 5+ languages",
       },
       {
         year: "2021 - 2026",
         role: "Student - Integrated Masters",
         company: "VIT Bhopal University",
-        description: "Computer Science with AI/ML Specialization. CGPA: 8.78. Active in Data Science Club leadership and hackathons",
+        description:
+          "Computer Science with AI/ML Specialization. CGPA: 8.78. Active in Data Science Club leadership and hackathons",
       },
     ],
     icon: <Code className="w-4 h-4" />,
@@ -207,7 +209,8 @@ Current Status: Open to internships and opportunities`,
   },
   weather: {
     type: "weather",
-    content: "Varanasi, India: 26°C ☀️ Pleasant\nPerfect weather for coding and learning!",
+    content:
+      "Varanasi, India: 26°C ☀️ Pleasant\nPerfect weather for coding and learning!",
     icon: <Sparkles className="w-4 h-4" />,
   },
   joke: {
